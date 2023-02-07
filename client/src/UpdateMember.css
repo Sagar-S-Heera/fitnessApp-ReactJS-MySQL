@@ -1,0 +1,51 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+label {
+  font-size: 16px;
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 5px;
+  background-color: white;
+  color: #282c34;
+  border: 1px solid lightgray;
+}
+
+button[type="submit"] {
+  background-color: white;
+  color: #282c34;
+  width: 80px;
+  height: 25px;
+  margin: 4px;
+  border: 1px solid #282c39;
+  padding: 2px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #282c34;
+    color: white;
+    border: 1px solid white;
+  }
+
+.update-form{
+  padding: 5px;
+}
